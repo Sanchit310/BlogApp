@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="6dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/posttitle"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:maxLines="1"
+            android:text="KFhaufhanfuhe auhfui afh iafkh fhkd shkshg ksjhg sdkgj sdkgh "
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/postcontnt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="KFhaufhanfuhe auhfui a ksah fkgsg kfakgjf ksagf skjgf kasjfg sauf sakfs fhs fkafh iafkh fhkd shkshg ksjhg sdkgj sdkgh "
+            android:layout_marginTop="16dp"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
